@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Zilla+Slab');
+* {
+    /*border: solid black 1px solid;*/
+    margin: 0;
+    padding: 0;
+    /*font-family: 'Zilla Slab', serif;*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*jumbotron*/
+
+.header {
+    background-image: url(http://i.imgur.com/sg4jOGo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    padding-top: 150px;
+}
+
+.slogan {
+    background-color: rgba(0, 0, 50, 0.2);
+    margin-left: 30px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 60px;
+    width: 660px;
+    word-break: keep-all;
+    padding: 10px;
+}
+
+.describe {
+    background-color: rgba(0, 0, 50, 0.2);
+    margin: 30px 30px;
+    width: 530px;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+.read {
+    margin: 30px 0 0 30px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.line {
+    background-color: rgba(0, 0, 50, 0.8);
+    display: inline;
+    padding: 5px 7px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/*container*/
+
+
+/*feature*/
+
+.feature {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.feature-it {
+    margin: auto 30px;
+    background-color: black;
+    font-size: 50px;
+    color: white;
+    width: 250px;
+    height: 265px;
+    text-align: center;
+    display: inline-block;
+}
+
+hr {
+    max-width: 20px;
+    border: solid 2px yellowgreen;
+    margin: 20px auto;
+}
+
+.feature-title {
+    font-size: 30px;
+    font-family: 'Zilla Slab', serif;
+    margin: auto;
+}
+
+.frame {
+    border: 2px solid yellowgreen;
+    height: 200px;
+    width: 200px;
+    margin: 30px auto;
+    padding: 20px 0;
+}
+
+
+/*about*/
+
+.about {
+    padding: 50px 0;
+    background-image: url("http://i.imgur.com/WRcXJGm.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+    color: white;
+    padding-top: 50px;
+}
+
+.about-s {
+    width: 400px;
+}
+
+.about-btn {
+    border: 2px solid yellowgreen;
+    width: 140px;
+    padding: 10px 0 10px 25px;
+    margin-left: 30px;
+    background-color: rgba(100, 100, 100, 0.5);
+    border-radius: 20px;
+}
+
+.read-btn {
+    font-family: 'Zilla Slab', serif;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.dash-box {
+    width: 80px;
+    display: inline-block;
+}
+
+.dash {
+    max-width: 70px;
+}
+
+
+/*badge*/
+
+.badge {
+    background-color: black;
+    height: 370px;
+    text-align: center;
+}
+
+.badge-size {
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    margin: 30px;
+    transition: 0.5s;
+}
+
+#badge_1 {
+    background: url("images/badge_sprite.png") 0 0;
+}
+
+#badge_1:hover {
+    background: url("images/badge_sprite.png") 540px 550px;
+}
+
+#badge_2 {
+    background: url("images/badge_sprite.png") 280px 0;
+}
+
+#badge_2:hover {
+    background: url("images/badge_sprite.png") 820px 560px;
+}
+
+#badge_3 {
+    background: url("images/badge_sprite.png") 290px 550px;
+}
+
+#badge_3:hover {
+    background: url("images/badge_sprite.png") 300px 300px;
+}
+
+#badge_4 {
+    background: url("images/badge_sprite.png") 800px 300px;
+}
+
+#badge_4:hover {
+    background: url("images/badge_sprite.png") 540px 300px;
+}
+
+.badge-size+.badge-size {
+    border-left: 1px dashed yellowgreen;
+}
+
+
+/*works*/
+
+.works {
+    text-align: center;
+    margin: auto;
+}
+
+.second-title {
+    font-family: 'Zilla Slab', serif;
+    font-size: 60px;
+    word-break: keep-all;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.intro {
+    display: inline-block;
+    width: 300px;
+}
+
+.intro+.intro {
+    margin-left: 30px;
+}
+
+#intro_1 {
+    background: url("http://i.imgur.com/r9ETzLp.jpg");
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#intro_2 {
+    background: url("http://i.imgur.com/ZTGv2nO.jpg");
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+#intro_3 {
+    background: url("http://i.imgur.com/JNorHnZ.jpg");
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+
+.genre {
+    opacity: 0.7;
+    margin-top: 20px;
+}
+
+.third-title {
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+
+/*test*/
+
+.test {
+    text-align: center;
+    margin: auto 0;
+}
+
+.circle {
+    border-radius: 100%;
+    width: 200px;
+    margin: auto;
+}
+
+.t-line {
+    display: inline-block;
+}
+
+.test-words {
+    width: 300px;
+    text-align: left;
+    margin: 20px;
+}
+
+.t-frame+.t-frame {
+    margin-left: 50px;
+}
+
+.t-name {
+    font-family: 'Zilla Slab', serif;
+    font-size: 22px;
+    color: rgb(42, 175, 153);
+    width: 300px;
+}
+
+.say {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 1.5em;
+}
+
+
+/*blogs*/
+
+.blogs {
+    margin: 100px auto;
+    text-align: center;
+}
+
+.c-2 {
+    width: 100px;
+    margin: 30px;
+}
+
+.b-line {
+    display: inline-block;
+}
+
+.left {
+    text-align: left;
+    width: 150px;
+}
+
+.right {
+    text-align: right;
+    width: 150px;
+}
+
+.blog-box {
+    border: 2px solid rgba(42, 175, 153, 0.2);
+    padding: 50px;
+    transition: 0.3s;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.blog-box:hover {
+    border: rgba(42, 175, 153, 1);
+}
+
+.blog-box+.blog-box {
+    margin-left: 70px;
+}
+
+.b-name {
+    font-family: 'Zilla Slab', serif;
+    font-size: 30px;
+    color: rgb(42, 175, 153);
+    width: 300px;
+    height: 150px;
+}
+
+
+/*footer*/
+
+.footer {
+    margin: auto;
+    padding: 50px;
+    background-color: black;
+}
+
+.footer-box {
+    text-align: center;
+}
+
+.footer-room {
+    color: white;
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.footer-grey {
+    color: grey;
+    line-height: 1.2em;
+}
+
+.footer-phone {
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-phone:hover {
+    color: turquoise;
+}
+
+.footer-mail {
+    color: white;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+    left: 240px;
+    top: -300px;
+}
+
+.footer-mail input {
+    display: inline-block;
+    padding: 10px;
+    border: dotted 1px white;
+    background-color: rgba(256, 256, 256, 0.2);
+    width: 200px;
+}
+
+.send {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    background-color: yellowgreen;
+    text-decoration: none;
+}
+
+.mark {
+    margin: 30px 0;
+    color: grey;
+}
+
+.media {}
+
+.media-it {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    color: black;
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.media-it a {
+    text-decoration: none;
+    color: white;
+}
+
+.media-it:hover {
+    background-color: turquoise;
+}
