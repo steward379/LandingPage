@@ -219,6 +219,7 @@ hr {
 
 .intro {
     display: inline-block;
+    width: 300px;
 }
 
 .intro+.intro {
