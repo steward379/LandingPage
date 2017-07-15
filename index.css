@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Zilla+Slab');
 * {
-    /*border: solid black 1px solid;*/
+    /* border: solid black 1px solid; */
     margin: 0;
     padding: 0;
     /*font-family: 'Zilla Slab', serif;*/
@@ -213,9 +213,13 @@ hr {
     text-align: center;
 }
 
+.balance {
+    display: flex;
+}
+
 .intro {
-    display: inline-block;
-    width: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .intro+.intro {
